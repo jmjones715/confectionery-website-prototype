@@ -1,0 +1,190 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  padding: 0;
+  background-color: #8B4513;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+header {
+  font-family: Merriweather, serif;
+  color: #f5f5dc;
+  text-align: center;
+  background-color: #8B4513;;
+  line-height: 1.5;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin: 0;
+  padding: 1em;
+  color: #f5f5dc;
+}
+
+.logo {
+  float: left;
+  padding: .5em 0 0;
+  margin-left: .5em;
+  width: 60px;
+}
+
+ul {
+  overflow: hidden;
+  padding: 0;
+}
+
+.nav {
+  margin: 0;
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+  width: 100%;
+}
+
+.nav li {
+  float: left;
+  width: 25%;
+  display: inline-block;
+}
+
+li a {
+  background-color: #d05c2e;
+  color: #f5f5dc;
+  text-decoration: none;
+  padding: .5em;
+  font-size: 1.125rem;
+  display: block;
+  border: 1px solid #a63f38;
+}
+
+li a:hover {
+  background-color: #a63f38;
+}
+
+main {
+  background-color: #f5f5dc;
+}
+
+h2 {
+  text-align: center;
+  margin: 0;
+  padding: 1em;
+  font-size: 2rem;
+  color: #8B4513;
+}
+
+.sales {
+    position: relative;
+    padding: 1em;
+}
+
+img {
+  width: 100%;
+}
+
+.sales-img {
+  width: 100%;
+}
+
+.sales p {
+  position: absolute;
+  top: 0;
+  font-size: 4em;
+  margin: 0;
+  padding: .5em .75em;
+  color: #8B4513;
+}
+
+.sales a {
+  padding: .4em .75em;
+  position: absolute;
+  bottom: 2em;
+  right: 2em;
+  text-decoration: none;
+  background-color: #d05c2e;
+  color: #f5f5dc;
+  font-size: 2rem;
+  border-radius: 4px;
+}
+
+.sales a:hover {
+  background-color: #a63f38;
+}
+
+.cards {
+  color: #f5f5dc;
+  text-align: center;
+  margin: auto;
+  padding-top: 1rem;
+}
+
+.card {
+  max-width: 30%;
+  display: inline-block;
+  padding: .5em;
+  vertical-align: top;
+  position: relative;
+}
+
+.card-img {
+  position: relative;
+}
+
+h3 {
+  position: absolute;
+  color: #d05c2e;
+  font-size: 1.5rem;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+}
+
+aside {
+  background-color: #f5f5dc;
+}
+
+.social {
+  width: 120px;
+  display: inline-block;
+}
+
+.social-body {
+  text-align: center;
+  display: inline-block;
+  padding-top: 1.5em;
+}
+
+.social-img {
+  margin: 0;
+  display: inline-block;
+  max-height: 50px;
+  width: 50px;
+}
+
+.social p {
+  color: #8B4513;
+  margin: 0;
+  padding-bottom: 1em;
+  font-size: 1rem;
+}
+
+footer {
+  background-color: #8B4513;
+  padding: 1em;
+}
+
+footer small {
+  color: #f5f5dc;
+}
