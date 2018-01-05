@@ -19,7 +19,7 @@ body {
   margin: 0;
   width: 100%;
   padding: 0;
-  background-color: #8B4513;
+  background-color: #8b4513;
 }
 
 *, *::before, *::after {
@@ -30,7 +30,7 @@ header {
   font-family: Merriweather, serif;
   color: #f5f5dc;
   text-align: center;
-  background-color: #8B4513;;
+  background-color: #8b4513;
   line-height: 1.5;
 }
 
@@ -92,12 +92,12 @@ h2 {
   margin: 0;
   padding: .5em;
   font-size: 1.2rem;
-  color: #8B4513;
+  color: #8b4513;
 }
 
 .sales {
-    position: relative;
-    padding: .5em;
+  position: relative;
+  padding: .5em;
 }
 
 img {
@@ -114,7 +114,7 @@ img {
   font-size: 1.5rem;
   margin: 0;
   padding: .5em .75em;
-  color: #8B4513;
+  color: #8b4513;
 }
 
 .sales a {
@@ -192,14 +192,14 @@ aside {
 }
 
 .social p {
-  color: #8B4513;
+  color: #8b4513;
   margin: 0;
   padding-bottom: 1em;
   font-size: .75rem;
 }
 
 footer {
-  background-color: #8B4513;
+  background-color: #8b4513;
   padding: 1em;
 }
 
@@ -209,6 +209,7 @@ footer small {
 }
 
 @media only screen and (min-width: 25em) {
+
   html {
     font-size: 100%;
     line-height: 1.3;
@@ -252,7 +253,7 @@ footer small {
   }
 
   .social p {
-    color: #8B4513;
+    color: #8b4513;
     margin: 0;
     padding-bottom: 1em;
     font-size: .75rem;
@@ -260,6 +261,7 @@ footer small {
 }
 
 @media only screen and (min-width: 38em) {
+
   html {
     font-size: 110%;
     line-height: 1.4;
@@ -288,7 +290,7 @@ footer small {
     font-size: 2rem;
     margin: 0;
     padding: .5em .75em;
-    color: #8B4513;
+    color: #8b4513;
   }
 
   .sales a {
@@ -320,7 +322,7 @@ footer small {
   }
 
   .social p {
-    color: #8B4513;
+    color: #8b4513;
     margin: 0;
     padding-bottom: 1em;
     font-size: 1rem;
@@ -333,6 +335,7 @@ footer small {
 }
 
 @media only screen and (min-width: 60em) {
+
   html {
     font-size: 120%;
     line-height: 1.5;
@@ -366,7 +369,7 @@ footer small {
     font-size: 3rem;
     margin: 0;
     padding: .5em .75em;
-    color: #8B4513;
+    color: #8b4513;
   }
 
   .sales a {
@@ -387,7 +390,7 @@ footer small {
   }
 
   .social p {
-    color: #8B4513;
+    color: #8b4513;
     margin: 0;
     padding-bottom: 1em;
     font-size: 1.2rem;
@@ -401,6 +404,7 @@ footer small {
 }
 
 @media only screen and (min-width: 90em) {
+
   html {
     font-size: 130%;
     line-height: 1.5;
@@ -421,7 +425,7 @@ footer small {
     font-size: 4rem;
     margin: 0;
     padding: .5em .75em;
-    color: #8B4513;
+    color: #8b4513;
   }
 
   .sales a {
@@ -453,7 +457,7 @@ footer small {
   }
 
   .social p {
-    color: #8B4513;
+    color: #8b4513;
     margin: 0;
     padding-bottom: 1em;
     font-size: 1.3rem;
