@@ -20,6 +20,7 @@ body {
   width: 100%;
   padding: 0;
   background-color: #8b4513;
+  font-family: "Courgette", cursive;
 }
 
 *, *::before, *::after {
@@ -27,7 +28,6 @@ body {
 }
 
 header {
-  font-family: Merriweather, serif;
   color: #f5f5dc;
   text-align: center;
   background-color: #8b4513;
@@ -78,7 +78,23 @@ li a {
   border: 1px solid #a63f38;
 }
 
+.sales a {
+  padding: .3em .75em;
+  position: absolute;
+  bottom: 1.5em;
+  right: 1em;
+  text-decoration: none;
+  background-color: #d05c2e;
+  color: #f5f5dc;
+  font-size: 1rem;
+  border-radius: 4px;
+}
+
 li a:hover {
+  background-color: #a63f38;
+}
+
+.sales a:hover {
   background-color: #a63f38;
 }
 
@@ -115,22 +131,6 @@ img {
   margin: 0;
   padding: .5em .75em;
   color: #8b4513;
-}
-
-.sales a {
-  padding: .3em .75em;
-  position: absolute;
-  bottom: 1.5em;
-  right: 1em;
-  text-decoration: none;
-  background-color: #d05c2e;
-  color: #f5f5dc;
-  font-size: 1rem;
-  border-radius: 4px;
-}
-
-.sales a:hover {
-  background-color: #a63f38;
 }
 
 .cards {
@@ -171,6 +171,7 @@ h3 {
 
 aside {
   background-color: #f5f5dc;
+  text-align: center;
 }
 
 .social {
