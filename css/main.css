@@ -20,7 +20,7 @@ body {
   width: 100%;
   padding: 0;
   background-color: #8b4513;
-  font-family: "Courgette", cursive;
+  font-family: Courgette, cursive;
 }
 
 *, *::before, *::after {
