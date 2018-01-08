@@ -38,7 +38,7 @@ h1 {
   text-align: center;
   font-size: 1.3rem;
   margin: 0;
-  padding: 1rem;
+  padding: 2rem;
   color: #f5f5dc;
 }
 
@@ -63,9 +63,8 @@ header .nav {
 }
 
 header .nav li {
-  float: left;
-  width: 25%;
-  display: inline-block;
+  width: 100%;
+  display: block;
 }
 
 li a {
@@ -75,7 +74,7 @@ li a {
   padding: .5em;
   font-size: .75rem;
   display: block;
-  border: 1px solid #a63f38;
+
 }
 
 .sales a {
@@ -106,7 +105,7 @@ main {
 h2 {
   text-align: center;
   margin: 0;
-  padding: .5em;
+  padding: 1em;
   font-size: 1.2rem;
   color: #8b4513;
 }
@@ -216,10 +215,25 @@ footer small {
     line-height: 1.3;
   }
 
+  header .nav {
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    width: 100%;
+  }
+
+  header .nav li {
+    float: left;
+    width: 25%;
+    display: inline-block;
+  }
+
   h1 {
     padding: 1em;
     font-size: 1.5rem;
   }
+
 
   .logo {
     float: left;
@@ -268,10 +282,25 @@ footer small {
     line-height: 1.4;
   }
 
+  header .nav {
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    width: 100%;
+  }
+
+  header .nav li {
+    float: left;
+    width: 25%;
+    display: inline-block;
+  }
+
   h1 {
     padding: 1em;
     font-size: 2rem;
   }
+
 
   .logo {
     float: left;
@@ -340,6 +369,20 @@ footer small {
   html {
     font-size: 120%;
     line-height: 1.5;
+  }
+
+  header .nav {
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    width: 100%;
+  }
+
+  header .nav li {
+    float: left;
+    width: 25%;
+    display: inline-block;
   }
 
   h1 {
@@ -411,9 +454,28 @@ footer small {
     line-height: 1.5;
   }
 
+  header .nav {
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    width: 100%;
+  }
+
+  header .nav li {
+    float: left;
+    width: 25%;
+    display: inline-block;
+  }
+
   h1 {
     font-size: 4rem;
     padding: 1em;
+  }
+
+  h2 {
+    padding: .75em;
+    font-size: 2rem;
   }
 
   .logo {
